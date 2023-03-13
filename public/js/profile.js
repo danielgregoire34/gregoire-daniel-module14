@@ -39,14 +39,6 @@ const newFormHandler = async (event) => {
     }
   };
   
-function comment(){
-  var data = {
-    comment: "Hello World!"
-  }
-}
-
-var template = Handlebars.compile(document.querySelector("#template"));
-
 
   document
     .querySelector('.new-blog-form')
